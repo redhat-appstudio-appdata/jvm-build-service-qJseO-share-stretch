@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-service-cache
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/jvm-build-service/jvm-build-service-cache@sha256:36f23d9b823f10c9b6013e2c48696283746e453ba45ca46a7e144e98f8af8be3
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/jvm-build-service/jvm-build-service-cache@sha256:70375d7afcf6d95db62e5fa1c84779d2cc406e87365a67ebca4c4661221bf1df
         name: my-java-quarkus
         ports:
         - containerPort: 8081
