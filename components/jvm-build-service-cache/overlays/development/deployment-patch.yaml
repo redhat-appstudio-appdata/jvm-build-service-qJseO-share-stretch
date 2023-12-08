@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/jvm-build-service/jvm-build-service-cache@sha256:70375d7afcf6d95db62e5fa1c84779d2cc406e87365a67ebca4c4661221bf1df
+      - image: quay.io/redhat-user-workloads/rhtap-build-tenant/jvm-build-service/jvm-build-service-cache@sha256:7d465dd47aa0b65479d824981f0a5733a02d228bd1d0392597542a48d5ee5533
         name: my-java-quarkus
         resources: {}
 status: {}
